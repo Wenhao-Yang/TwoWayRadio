@@ -127,3 +127,14 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+*.txt
+*.wav
+*.ini
+data/spk_info
+data/spk2utt
+data/spk2utt
+data/wav.scp
+misc/audio/ffmpeg
+misc/audio/hackrf
+misc/audio/Record_Wav
+data/utterances

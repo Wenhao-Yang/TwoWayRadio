@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>400</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Microsoft YaHei UI</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>新的说话人</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="1,1,1,1,1,3">
+   <item>
+    <widget class="QLineEdit" name="sid_lineEdit">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="name_lineEdit">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>姓名</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="gender_comboBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <item>
+      <property name="text">
+       <string>男</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>女</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="age_lineEdit">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="placeholderText">
+      <string>年龄</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QComboBox" name="prov_comboBox">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <item>
+      <property name="text">
+       <string>河北</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>山西</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>辽宁</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>吉林</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>黑龙江</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>江苏</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>浙江</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>安徽</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>福建</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>江西</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>山东</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>河南</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>湖北</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>湖南</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>广东</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>海南</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>四川</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>贵州</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>云南</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>陕西</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>甘肃</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>青海</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>台湾</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>内蒙古</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>广西</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>西藏</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>宁夏</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>新疆</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>北京</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>天津</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>上海</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>重庆</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>香港</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>澳门</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="saveButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>保存</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="cancleButton">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>120</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>取消</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
